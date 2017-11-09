@@ -11,7 +11,7 @@
             <md-spinner md-indeterminate v-if="loading"></md-spinner>
             <p>Looking a cute cat for you . . .</p>
           </div>
-          <img v-else :src="randomCat.url">
+          <img v-else :src="randomCat.url" style="width:40%">
         </div>
       </md-card-media>
 

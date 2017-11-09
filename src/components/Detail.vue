@@ -7,7 +7,7 @@
     </md-card-header>
 
     <md-card-media>
-      <img :src="cat.url" :alt="cat.comment">
+      <img :src="cat.url" :alt="cat.comment" style="width:40%">
     </md-card-media>
 
     <md-card-content>
